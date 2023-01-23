@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		
+		body{
+			background-image: url(1img.jpg);
+			background-repeat: no-repeat no-repeat no-repeat;
+			background-size: cover;
+		}
+		.main{
+				width: 100%;
+				border:2px solid black;
+				display: flex;
+				border-radius: 20px;
+				background-color: white;
+				color: white;
+				background-color:  rgba(76, 175, 80, 0.3)
+
+
+		}
+		.child{
+			width: 50%;
+			
+			padding: 20px;
+		}
+		h1{
+			text-align: center;
+		}
+		button{
+			width: 100%;
+		}
+		input,textarea{
+			width: 70%;
+			border:2px solid black;
+			height: 30px;
+			border-radius: 10px;
+		}
+		label{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		button{
+			height: 50px;
+			border:3px solid black;
+			border-radius: 10px;
+			font-size: 35px;
+			font-weight: bold;
+			font-family: sans-serif;
+			background-color: green;
+		}
+
+
+	</style>
+</head>
+<body>
+	<form>
+		<div class="main">
+			<div class="child">
+			<h1>Billing Address</h1>
+			<label>Full Name</label><br>
+			<input type="text" name="" placeholder="maiyuddin shaikh"><br><br>
+			<label>Email</label><br>
+			<input type="Email" name="" placeholder="xyz@gmail.com"><br><br>
+			<label>Address</label><br>
+			<textarea placeholder="full Address">
+			
+			</textarea><br><br>
+			<label>City</label><br>
+			<input type="text" name="" placeholder="Ahmedabad"><br><br>
+
+			<div style="width: 100%; display:flex;">
+				<div style="width: 50%">
+					State<br>
+					<input type="text" name="" placeholder="Gujrat">
+				</div>
+				<div style="width: 50%">
+					State<br>
+					<input type="Number" name="" placeholder="380028">
+				</div>
+			</div>
+
+
+
+		    </div>
+		    <div class="child">
+			<h1>Payment</h1>
+			<H2>Accepted Cards</H2>
+			<div style="display: flex; grid-gap: 10px">
+			<div>
+			<img src="images/card1.png" width="100px">
+			</div>
+			<div>
+			<img src="images/card2.png" width="100px">
+			</div>
+			<div>
+			<img src="images/card3.jpeg" width="100px">
+			</div>
+			<div>
+			<img src="images/card4.webp" width="100px">
+			</div>
+		    </div><br><br>
+		    <label>Name on Card</label><br>
+		    <input type="Text" name="" placeholder="Shaikh Maiyuddin"><br><br>
+
+		    <label>Credit Card Number</label><br>
+		    <input type="Number" name="" placeholder="1111-2222-3333-4444"><br><br>
+
+		    <label>Exp Month</label><br>
+		    <select>
+		    	<option>January</option>
+		    	<option>February</option>
+		    	<option>March</option>
+		    	<option>April</option>
+		    	<option>May</option>
+		    	<option>June</option>
+		    	<option>July</option>
+		    	<option>Agugast</option>
+		    	<option>September</option>
+		    	<option>Octomber</option>
+		    	<option>November</option>
+		    	<option>December</option>
+		    </select><br><br>
+
+		    <div style="width: 100%; display:flex;">
+				<div style="width: 50%">
+					Exp Year<br>
+					<input type="Year" name="" placeholder="2023">
+				</div>
+				<div style="width: 50%">
+					CVV<br>
+					<input type="Number" name="" placeholder="167">
+				</div>
+				
+			</div><BR><br>
+			<button >Submit</button>
+
+		    </div><br><br>
+		    
+		    
+		</div>
+		
+		
+	</form>
+
+</body>
+</html>
